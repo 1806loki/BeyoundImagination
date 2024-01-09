@@ -1,0 +1,9 @@
+.dashboard-container {
+  height: calc(100vh - 100px);
+}
+
+.login-message {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}

@@ -26,3 +26,8 @@
   width: 100px;
   font-weight: 700;
 }
+
+.Navbar img {
+  max-height: 100%;
+  max-width: 100px;
+}

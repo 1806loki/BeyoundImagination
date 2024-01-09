@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const { userData, logoutUser } = useUserContext();
   const navigate = useNavigate();
-  
+
   useEffect(() => {
     console.log(userData);
   }, [userData]);
@@ -21,7 +21,10 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="Container">
         <div>
-          <h1>SOME LOGO</h1>
+          <img
+            src="https://www.financialexpress.com/wp-content/uploads/2023/08/Untitled-design-2023-08-16T144204.937.jpg?w=1024"
+            alt="Logo"
+          />
         </div>
         <div>
           <h1> {userData && userData.userName}</h1>
