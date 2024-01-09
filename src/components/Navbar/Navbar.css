@@ -1,0 +1,28 @@
+.Navbar {
+  height: 80px;
+  width: 100vw;
+  background: #000;
+  color: #ffffffee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Navbar .Container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar .Container div:last-child {
+  display: flex;
+  gap: 20px;
+}
+
+.Navbar .Container div:last-child button {
+  background: yellow;
+  color: black;
+  width: 100px;
+  font-weight: 700;
+}
